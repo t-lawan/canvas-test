@@ -1,15 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const ArtMarket = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>This is a test site</h1>
+    <SEO title="Art Market" />
+    <h1>Art Market</h1>
 
   </Layout>
 )
 
-export default IndexPage
+export default ArtMarket
